@@ -1,0 +1,86 @@
+*{
+
+margin: 0;
+padding: 0;
+
+}
+.navbar{
+
+display: flex;
+
+justify-content:space-between;
+
+background-color: aquamarine;
+
+
+padding: 30px;
+
+
+
+
+
+}
+
+
+
+.navbar  ul{
+
+padding-top: 15px;
+
+}
+
+
+
+
+
+
+
+
+ .logo{
+
+font-size: 40px;
+
+font-family: sans-serif;
+
+font-weight: bold;
+
+
+}
+
+.navbar li{
+
+display:inline;
+
+
+}
+
+
+
+
+.navbar li a{
+
+text-decoration: none;
+
+color: rgb(0, 6, 11);
+
+font-size: 20px;
+
+font-style: bold;
+
+font-family:sans-serif;
+
+
+padding-inline: 90px;
+
+
+
+
+
+}
+
+.navbar li a::after{
+
+    background-color: red;
+    transition: 0.3s ease;
+
+}

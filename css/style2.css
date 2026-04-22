@@ -1,0 +1,29 @@
+#id1{
+
+background-color: aqua;
+}
+
+
+#id2{
+
+    background-color: violet;
+}
+
+.div1{
+
+
+    display: inline-block;
+    background-color: aqua;
+    width: 300px;
+    height: 500px;
+}
+
+
+.div2{
+
+
+    display: inline-block;
+    background-color: #e80c0c;
+    width: 300px;
+    height: 500px;
+}
