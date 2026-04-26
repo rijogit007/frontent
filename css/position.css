@@ -1,0 +1,62 @@
+*{
+
+margin: 0%;
+padding: 0%;
+
+
+}
+
+body{
+
+    min-height:2000px
+}
+
+/* div{
+    /* position: absolute; */
+    /* position: relative; */
+    /* position: fixed; */
+    /* position: sticky;
+    top :10px;
+    max-width: 600px;
+    min-height: 400px;
+    background-color: blueviolet;
+    overflow:auto
+ */
+
+
+
+header{
+
+
+background-color: rgb(0, 235, 4);
+
+
+
+
+}
+
+
+nav,li,a{
+
+display: flex;
+
+padding: 10px;
+justify-content: center;
+text-decoration: none;
+gap: 12%;
+color: black;
+position: relative;
+right: 10%;
+font-size: large;
+}
+
+main{
+
+position: relative;
+top: 10px;
+left: 35%;
+font-family: monospace;
+
+font-size: large;
+
+}
