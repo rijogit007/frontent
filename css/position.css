@@ -60,3 +60,18 @@ font-family: monospace;
 font-size: large;
 
 }
+
+.sec1{
+
+min-height: 100px;
+max-width: 250px;
+
+position: relative;
+left :10%;
+top: 10px;
+
+border-radius: 10%;
+background-color: blueviolet;
+
+
+}
