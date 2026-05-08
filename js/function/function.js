@@ -67,13 +67,19 @@
 // console.log(b)
 
 
-let  a="15";
-let b=10;
+// let  a="15";
+// let b=10;
 
 
-console.log(typeof(a));
-console.log(typeof(b));
+// console.log(typeof(a));
+// console.log(typeof(b));
 
 
-console.log(typeof parseInt (a));
-console.log(typeof b.toString() );
+// console.log(typeof parseInt (a));
+// console.log(typeof b.toString() );
+
+myFun =(c)=>{
+
+console.log(myFun(14))
+
+}
