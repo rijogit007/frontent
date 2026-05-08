@@ -1,13 +1,14 @@
-// function onAlert(){
-//         alert("welcome")
-//         console.log("clicked")
+function onAlert(){
+        alert("welcome")
+        console.log("clicked")
 
-// }
+}
 
 
-let btn=document.getElementById('btn')
+// let btn=document.getElementById('btn')
 
-addEventListener('click',function(){
+// addEventListener('click',function(){
 
-    alert("clicked")
-})
+//     alert("clicked")
+// })
+
