@@ -36,3 +36,6 @@ console.log(Student)
 
 
 
+delete Student.name;
+
+console.log(Student)
