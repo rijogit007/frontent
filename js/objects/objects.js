@@ -27,3 +27,12 @@ console.log(Student)
 delete Student.age;
 
 console.log(Student)
+
+
+delete Student.course;
+
+console.log(Student)
+
+
+
+
