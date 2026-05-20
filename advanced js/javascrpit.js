@@ -30,19 +30,89 @@
 // console.log(player2)
 
 
+//map
+
+
+// const globalplayer=[
+
+// {
+    
+//     id:1,
+//     name:"rijo",
+//     power:100,
+// }
+
+// ]
+
+// const details=globalplayer.map((data)=> data.id);
+// console.log(details)
+
 const globalplayer=[
 
 {
     
     id:1,
     name:"rijo",
-    power:100,
+    power:1001,
+},
+{
+    
+    id:2,
+    name:"jijo",
+    power:1002,
+},
+{
+    
+    id:3,
+    name:"tijo",
+    power:1003,
+},
+{
+    
+    id:4,
+    name:"sijo",
+    power:1003,
 }
 
 ]
 
-const details=globalplayer.map((data)=> data.id);
-console.log(details)
+
+
+const newarray=globalplayer.filter((data)=>data.power==1003)
+
+console.log(newarray);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
