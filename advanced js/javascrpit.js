@@ -47,6 +47,46 @@
 // const details=globalplayer.map((data)=> data.id);
 // console.log(details)
 
+
+
+// //filter
+// const globalplayer=[
+
+// {
+    
+//     id:1,
+//     name:"rijo",
+//     power:1001,
+// },
+// {
+    
+//     id:2,
+//     name:"jijo",
+//     power:1002,
+// },
+// {
+    
+//     id:3,
+//     name:"tijo",
+//     power:1003,
+// },
+// {
+    
+//     id:4,
+//     name:"sijo",
+//     power:1003,
+// }
+
+// ]
+
+
+
+// const newarray=globalplayer.filter((data)=>data.power==1003)
+
+// console.log(newarray);
+
+
+
 const globalplayer=[
 
 {
@@ -78,19 +118,11 @@ const globalplayer=[
 
 
 
-const newarray=globalplayer.filter((data)=>data.power==1003)
-
-console.log(newarray);
 
 
+const filterarray=globalplayer.filter((data)=>data.power==1003).map((data)=>data.name);
 
-
-
-
-
-
-
-
+console.log(filterarray)
 
 
 
