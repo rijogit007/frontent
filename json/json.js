@@ -19,6 +19,16 @@ const strJSON=`{
 }`
 
 console.log(strJSON);
+console.log(typeof strJSON);
+
+// JSON.parse()
+
+const parsedJSON = JSON.parse(strJSON);
+
+console.log(typeof parsedJSON);
+console.log(parsedJSON.company);
+
+
 
 
 //convert json to object
